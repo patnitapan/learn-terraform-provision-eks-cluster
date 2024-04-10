@@ -15,15 +15,15 @@ terraform {
       version = "~> 3.5.1"
     }
 
-    tls = {
-      source  = "hashicorp/tls"
-      version = "~> 4.0.4"
-    }
+    # tls = {
+    #   source  = "hashicorp/tls"
+    #   version = "~> 4.0.4"
+    # }
 
-    cloudinit = {
-      source  = "hashicorp/cloudinit"
-      version = "~> 2.3.2"
-    }
+    # cloudinit = {
+    #   source  = "hashicorp/cloudinit"
+    #   version = "~> 2.3.2"
+    # }
   }
 
   required_version = "~> 1.3"
